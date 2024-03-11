@@ -1,0 +1,43 @@
+.m{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.bg{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index:-1;
+    opacity: 0.4;
+    top: 40px;
+    bottom: 0px;
+}
+
+.mid{
+    width: 70%;
+    margin-left: 3rem;
+    padding-top: 5px;
+    align-content: center;
+}
+
+.left{
+    color: white;
+    align-items: flex-start;
+}
+
+.right{
+    align-items: right;
+    padding-top: 12px;
+    width: 25%;
+}
+
+.search{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}

@@ -1,0 +1,51 @@
+.container{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    color: black;
+    justify-content: space-between; 
+    position: static;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.name {
+font-style: italic, bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 24px;
+
+
+}
+
+.Signup{
+    align-items:right;    
+}
+.Signup p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.mid{
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    
+}
+
+.name:hover{
+    cursor: pointer;
+    font-size: 28px;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border: 10cm;
+    border-radius: 5cm;
+    float: left;
+} 
+ 

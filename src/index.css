@@ -1,0 +1,25 @@
+:root{
+  background: #000000;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.center{
+  align-content: center;
+}
+.underline{
+  text-decoration: underline;
+}
+.white{
+  color: white;
+}
+.bold{
+  font-size: large;
+}
+body{
+  position: static;
+}

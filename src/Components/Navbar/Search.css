@@ -1,0 +1,14 @@
+.i{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 60%;
+    height: 20px;
+    
+}
+.search{
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+    margin-left: 40px;
+    justify-content: space-around;
+}
