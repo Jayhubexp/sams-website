@@ -4,11 +4,11 @@ function Footer() {
   return (
     <>
         <div className='flex white'>
-            <div className='Social'>
+            <div className='Social center'>
                 <h1 className='underline'>
                     Socials
                 </h1>
-                <li>
+                
                     <ul>
                        <a href='' target='_blank'>Telegram </a> 
                     </ul>
@@ -18,14 +18,26 @@ function Footer() {
                     <ul>
                        <a href='' target='_blank'>LinkedIn </a> 
                     </ul>
-                </li>
+                
 
-            </div>
-            <div className='about center'>
-                <h1 className='underline'>About</h1>
-                Profession 
+                </div>
+              <div className='about center'>
+                <h1 className='underline center'>About</h1>
+            
+                  <ul>Interests</ul>
+                  <ul>Sports</ul>
+                  <ul>Achievements</ul>
+                  <ul>Music</ul>
+                  <ul>Family</ul>
+                
 
-            </div>
+              </div>
+              <div className='profession '>
+                  <h1 className='underline'>Professional Experiences</h1>
+                  <li> CIEE LEGON </li>
+                  <li> Techten Planet </li>
+                  <li> Guitar Tutor</li>
+              </div>
 
         </div>
         <div className='bold white center flex'>

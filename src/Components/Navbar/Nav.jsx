@@ -22,13 +22,13 @@ function Navbar() {
             <a href='' target='_blank'>Startup</a>
             <a href='' target='_blank'>Blog</a>
             </div>
-            <div className='SignUp'>
-              <p>SignUp to my NewsLetter!</p>
+            <div className='SignUp'> 
+             <a href='/Newsletter' target='_blank'><button >SignUp to my NewsLetter!</button></a> 
             </div>
           </div>
     </div>
        
-     <Outlet/>
+     {/* <Outlet/> */}
     </>
     
   )

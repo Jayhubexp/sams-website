@@ -1,14 +1,18 @@
 .i{
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 4px;
-    width: 60%;
+    width: 160px;
     height: 20px;
+    position: absolute;
+    right: 0px;
+    top: 50px; ;
     
 }
 .search{
     display: flex;
-    align-self: center;
+    align-self: right;
     padding-left: 10px;
     margin-left: 40px;
     justify-content: space-around;
-}
+    
+} 
