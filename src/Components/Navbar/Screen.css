@@ -1,6 +1,6 @@
 .x{
     margin-top: 10px;
-    
+    margin-left: 50px;
     color: white;
 }
 
@@ -9,4 +9,5 @@ font-family: cursive;
 }
 .content{
      font-style: oblique;
+     
 }

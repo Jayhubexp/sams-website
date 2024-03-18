@@ -12,10 +12,8 @@ function Navbar() {
        <div className='container'>
     
               <div className='name'>
-              {/* <Link to="/"></Link> */}
                <img src={avatar} alt="" className='image'/>
                Samuel Johnson
-               
               </div>
             <div className='mid'>
             <a href='' target='_blank'>Education</a>
@@ -23,7 +21,7 @@ function Navbar() {
             <a href='' target='_blank'>Blog</a>
             </div>
             <div className='SignUp'> 
-             <a href='/Newsletter' target='_blank'><button >SignUp to my NewsLetter!</button></a> 
+            <button >SignUp to my NewsLetter!</button>  
             </div>
           </div>
     </div>
