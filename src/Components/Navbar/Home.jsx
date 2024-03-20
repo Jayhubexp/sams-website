@@ -3,9 +3,10 @@ import Navbar from './Nav'
 import MidScreen from './MidScreen'
 import Footer from './Footer'
 
+
 function Home() {
   return (
-    <div>
+    <div className='home'>
         <Navbar/>
         <MidScreen/>
         <Footer/>
@@ -13,4 +14,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home 

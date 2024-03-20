@@ -21,12 +21,11 @@ function Navbar() {
             <a href='' target='_blank'>Blog</a>
             </div>
             <div className='SignUp'> 
-            <button >SignUp to my NewsLetter!</button>  
+            <Link to='/education'><button >SignUp to my NewsLetter!</button></Link>  
             </div>
           </div>
     </div>
        
-     {/* <Outlet/> */}
     </>
     
   )
