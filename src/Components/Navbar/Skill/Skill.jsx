@@ -10,13 +10,9 @@ function Skill() {
             <b><h3>Introduction</h3></b>
         </div>
         <div className='list'>
-            <p>Born an African on the 21st of April. I grew up to become a software 
-                engineer and an Artificial Intelligence developer because of their
-                relevance in the real world. Software engineering has always been 
-                a carreer I wanted to explore because of how it solves real life 
-                problems. I know I can't boast that I'm a problem solver now because 
-                you probably are just hearing about me for the first time, but then you can click
-                any of the links on this site to findout more about how tue that is.
+            <p>"Hello and welcome! I'm an African-born Software Engineer and Artificial Intelligence Developer, passionate about leveraging technology to address real-world challenges. From an early age, I was drawn to the transformative power of software engineering and AI due to their profound impact on society.
+                  Driven by a desire to solve complex problems, I've dedicated myself to mastering these fields and contributing meaningfully to the ever-evolving landscape of technology. While I may not yet have had the opportunity to demonstrate my problem-solving abilities to you personally, I invite you to explore the links provided on this site to discover more about my work and the tangible solutions I've crafted.
+                Thank you for visiting, and I look forward to sharing my journey with you.
               </p>
         
 

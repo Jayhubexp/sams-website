@@ -16,7 +16,7 @@ function MidScreen() {
     <>
       <div className='m'>
         <div className='bg'>
-          <img src={background} alt='bg' width='100%' height='550px' />
+          <img src={background} alt='bg' width='100%' height='550vh' />
         </div>
           <div className='left'>
             <Skill/>

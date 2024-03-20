@@ -10,7 +10,7 @@
 }
 
 .list{
-    line-height: 0.8cm;
-    font-style: italic;
+    font-style: bold;
     margin-left: 5px;
+    font-size: 20px;
 }

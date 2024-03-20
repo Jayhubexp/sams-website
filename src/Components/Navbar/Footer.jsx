@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-        <div className='flex white'>
+        <div className='flex white top'>
             <div className='Social center'>
                 <h1 className='underline'>
                     Socials

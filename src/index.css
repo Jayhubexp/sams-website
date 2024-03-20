@@ -24,3 +24,7 @@
 body{
   position: static;
 }
+
+.top{
+  margin-top: 3rem;
+}
