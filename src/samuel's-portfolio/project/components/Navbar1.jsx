@@ -46,7 +46,7 @@ export function Navbar1() {
     >
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
-          <a href="#">
+          <a href="/">
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
               alt="Logo image"
@@ -107,19 +107,19 @@ export function Navbar1() {
           className="overflow-hidden px-[5%] lg:flex lg:items-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
         >
           <a
-            href="#"
+            href="/"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
-            Home Page
+            Home
           </a>
           <a
-            href="#"
+            href="/about"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
-            About Me
+            About
           </a>
           <a
-            href="#"
+            href="/skills"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             My Skills
@@ -132,7 +132,7 @@ export function Navbar1() {
               className="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
               onClick={useActive.openOnMobileDropdownMenu}
             >
-              <span>Projects</span>
+              <span>Contact</span>
               <motion.span
                 variants={{ rotated: { rotate: 180 }, initial: { rotate: 0 } }}
                 animate={useActive.animateDropdownMenuIcon}

@@ -107,19 +107,19 @@ export function Navbar1() {
           className="overflow-hidden px-[5%] lg:flex lg:items-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
         >
           <a
-            href="#"
+            href="/"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
-            Home Page
+            Home
           </a>
           <a
-            href="#"
+            href="/about"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
-            About Me
+            About
           </a>
           <a
-            href="#"
+            href="/skills"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             My Skills
@@ -132,7 +132,7 @@ export function Navbar1() {
               className="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
               onClick={useActive.openOnMobileDropdownMenu}
             >
-              <span>Projects</span>
+              <span>Contact</span>
               <motion.span
                 variants={{ rotated: { rotate: 180 }, initial: { rotate: 0 } }}
                 animate={useActive.animateDropdownMenuIcon}
@@ -164,10 +164,10 @@ export function Navbar1() {
                 className="bg-background-primary lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
               >
                 <a
-                  href="#"
+                  href="mailto:samueljohnsonsokpoli@gmail.com"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  Contact Me
+                  Send an Email
                 </a>
                 <a
                   href="#"
