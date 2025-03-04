@@ -114,10 +114,10 @@ export function Navbar1() {
             Home
           </a>
           <a
-            href="/project"
+            href="/about"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
-            Projects
+            About
           </a>
           <a
             href="/portfolio"

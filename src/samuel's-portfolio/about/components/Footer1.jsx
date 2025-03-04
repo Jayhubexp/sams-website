@@ -33,11 +33,11 @@ export function Footer1() {
       <div className="container">
         <div className="grid grid-cols-1 gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[0.75fr_1fr] lg:gap-y-4 lg:pb-20">
           <div className="flex flex-col">
-            <a href="#" className="mb-5 md:mb-6">
+            <a href="/" className="mb-5 md:mb-6">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
+                src="/src/assets/Group.png"
                 alt="Logo image"
-                className="inline-block"
+                className="max-h-12 lg:max-h-16 object-contain"
               />
             </a>
             <p className="mb-5 md:mb-6">

@@ -7,6 +7,8 @@ import { Logo1 } from "./components/Logo1";
 import { Layout237 } from "./components/Layout237";
 import { Blog34 } from "./components/Blog34";
 import { Footer1 } from "./components/Footer1";
+import { Faq4 } from "./components/Faq4";
+import { Footer2 } from "./components/Footer2";
 
 export default function Page() {
   return (
@@ -18,7 +20,10 @@ export default function Page() {
       <Logo1 />
       <Layout237 />
       <Blog34 />
-      <Footer1 />
+      <Faq4 />
+      <Footer2 />
+
+      {/* <Footer1 /> */}
     </div>
   );
 }

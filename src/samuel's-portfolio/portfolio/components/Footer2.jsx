@@ -34,12 +34,13 @@ export function Footer2() {
         <div className="grid grid-cols-1 items-start gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[1fr_0.5fr] lg:gap-y-4 lg:pb-20">
           <div className="grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 md:gap-x-8 lg:grid-cols-4">
             <a
-              href="#"
+              href="/"
               className="sm:col-start-1 sm:col-end-4 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
             >
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
+                src="/src/assets/Group.png"
                 alt="Logo image"
+                className="max-h-12 lg:max-h-16 object-contain"
               />
             </a>
             <div className="flex flex-col items-start justify-start">

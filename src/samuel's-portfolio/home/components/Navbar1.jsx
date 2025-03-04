@@ -108,7 +108,7 @@ export function Navbar1() {
           className="overflow-hidden px-[5%] lg:flex lg:items-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
         >
           <a
-            href="/project"
+            href="/"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             Home
@@ -120,10 +120,10 @@ export function Navbar1() {
             About
           </a>
           <a
-            href="/skills"
+            href="/portfolio"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
-            My Skills
+            Portfolio
           </a>
           <div
             onMouseEnter={useActive.openOnDesktopDropdownMenu}
