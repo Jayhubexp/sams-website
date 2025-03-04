@@ -2,17 +2,23 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
+import Bg from "/src/assets/Bg.mp4"
 
 export function Header9() {
   return (
     <section id="relume" className="flex h-svh min-h-svh flex-col">
       <div className="relative flex-1">
         <div className="absolute inset-0 -z-10">
-          <img
-            src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-            alt="Relume placeholder image"
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 size-full object-cover"
-          />
+          >
+            <source src={Bg} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <div className="px-[5%]">
