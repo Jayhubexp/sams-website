@@ -3,12 +3,13 @@
 import { Button, Input } from "@relume_io/relume-ui";
 import React, { useState } from "react";
 import {
-  BiLogoFacebookCircle,
   BiLogoInstagram,
   BiLogoLinkedinSquare,
   BiLogoYoutube,
 } from "react-icons/bi";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaSnapchat } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa6";
 
 const useForm = () => {
   const [email, setEmail] = useState("");
@@ -57,7 +58,7 @@ export function Footer2() {
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/about" className="flex items-center gap-3">
                     About Me
                   </a>
                 </li>
@@ -67,7 +68,7 @@ export function Footer2() {
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://mindshifttttttt.blogspot.com/" className="flex items-center gap-3">
                     Blog Posts
                   </a>
                 </li>
@@ -77,12 +78,12 @@ export function Footer2() {
               <h2 className="mb-3 font-semibold md:mb-4">Follow Me</h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://github.com/Jayhubexp" className="flex items-center gap-3">
                     GitHub Profile
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/" className="flex items-center gap-3">
                     LinkedIn Page
                   </a>
                 </li>
@@ -97,7 +98,7 @@ export function Footer2() {
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/portfolio" className="flex items-center gap-3">
                     Portfolio Site
                   </a>
                 </li>
@@ -173,20 +174,22 @@ export function Footer2() {
           </div>
           <div className="mb-8 flex items-center justify-center gap-3 lg:mb-0">
             <a href="#">
-              <BiLogoFacebookCircle className="size-6" />
+              <FaSnapchat className="size-6" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/_super.sam?igsh=b2hkOGNqM2tvbng1&utm_source=qr
+">
               <BiLogoInstagram className="size-6" />
             </a>
-            <a href="#">
+            <a href="https://x.com/SamuelJohn95977">
               <FaXTwitter className="size-6 p-0.5" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/">
               <BiLogoLinkedinSquare className="size-6" />
             </a>
-            <a href="#">
-              <BiLogoYoutube className="size-6" />
+            <a href="https://t.me/brighttday">
+              <FaTelegram className="size-6" />
             </a>
+
           </div>
         </div>
       </div>
