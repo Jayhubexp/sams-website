@@ -93,8 +93,8 @@ export function Footer2() {
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    YouTube Channel
+                  <a href="https://t.me/+6-Icaz0tAb00YTBk" className="flex items-center gap-3">
+                    Telegram Channel
                   </a>
                 </li>
                 <li className="py-2 text-sm">

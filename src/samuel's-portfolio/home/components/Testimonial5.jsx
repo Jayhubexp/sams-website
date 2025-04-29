@@ -43,7 +43,7 @@ export function Testimonial5() {
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
+                  src="/src/assets/Ellipse3.png"
                   alt="Webflow logo 1"
                   className="max-h-12"
                 />

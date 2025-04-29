@@ -4,6 +4,7 @@ import { Button } from "@relume_io/relume-ui";
 import React from "react";
 import { RxChevronRight } from "react-icons/rx";
 
+
 export function Layout1() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
@@ -15,8 +16,8 @@ export function Layout1() {
               Meet Samuel: A Passionate Web Developer
             </h1>
             <p className="md:text-md">
-              Samuel embodies the spirit of hard work and dedication. His
-              focused approach and adaptability make him a standout in the web
+              I embody the spirit of hard work and dedication. My
+              focused approach and adaptability make me a standout in the web
               development landscape.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
@@ -35,7 +36,7 @@ export function Layout1() {
           </div>
           <div>
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src="/src/assets/Me.jpg"
               className="w-full object-cover"
               alt="Relume placeholder image"
             />
