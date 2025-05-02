@@ -133,7 +133,7 @@ export function Navbar1() {
               className="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
               onClick={useActive.openOnMobileDropdownMenu}
             >
-              <span>Link Four</span>
+              <span>Contact</span>
               <motion.span
                 variants={{ rotated: { rotate: 180 }, initial: { rotate: 0 } }}
                 animate={useActive.animateDropdownMenuIcon}
@@ -165,22 +165,22 @@ export function Navbar1() {
                 className="bg-background-primary lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
               >
                 <a
-                  href="#"
+                  href="mailto:samueljohnsonsokpoli@gmail.com"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  Link Five
+                  Email
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/Jayhubexp"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  Link Six
+                  Github
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  Link Seven
+                  LinkedIn
                 </a>
               </motion.nav>
             </AnimatePresence>

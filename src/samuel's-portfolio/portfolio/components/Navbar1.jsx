@@ -168,19 +168,19 @@ export function Navbar1() {
                   href="mailto:samueljohnsonsokpoli@gmail.com"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  Send an Email
+                  Email
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/Jayhubexp"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  GitHub Profile
+                  GitHub
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/"
                   className="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
                 >
-                  LinkedIn Page
+                  LinkedIn
                 </a>
               </motion.nav>
             </AnimatePresence>
