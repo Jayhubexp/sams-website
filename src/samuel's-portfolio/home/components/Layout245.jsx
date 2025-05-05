@@ -29,9 +29,9 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                  src="/src/assets/Html.jpg"
                   alt="Relume logo"
-                  className="size-12"
+                  className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
@@ -42,9 +42,9 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo"
-                  className="size-12"
+                  src="/src/assets/React-JS-Logo.jpg"
+                  alt="React logo"
+                  className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
@@ -55,9 +55,9 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo"
-                  className="size-12"
+                  src="/src/assets/node.jpg"
+                  alt="Nodejs logo"
+                  className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
