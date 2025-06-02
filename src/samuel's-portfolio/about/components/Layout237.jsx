@@ -25,9 +25,9 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                  src="/src/public/assets/Client.jpg"
                   alt="Relume logo 1"
-                  className="size-12"
+                  className="size-22"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
@@ -41,9 +41,9 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
+                  src="/src/public/assets/Delivery.jpg"
+                  alt="Delivery logo"
+                  className="size-22"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
@@ -57,9 +57,9 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                  src="/src/public/assets/Improvement.jpg"
                   alt="Relume logo 1"
-                  className="size-12"
+                  className="size-22"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">

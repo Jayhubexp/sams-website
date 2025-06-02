@@ -15,120 +15,115 @@ export function Blog34() {
               Iron and Wisdom
             </h1>
             <p className="md:text-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Mastering Confidence, Leadership, and Growth.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 md:gap-y-16 lg:grid-cols-3">
           <div className="flex size-full flex-col items-start justify-start text-start">
-            <a href="#" className="mb-6 w-full">
+            <a href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html" className="mb-6 w-full">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="/src/public/assets/Blog_G.jpg"
                 alt="Relume placeholder image 1"
                 className="aspect-[3/2] size-full object-cover"
               />
             </a>
             <div className="rb-4 mb-4 flex w-full items-center justify-start">
               <p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
-                Category
+                Growth
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
             </div>
-            <a className="mb-2 flex justify-start text-start" href="#">
+            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html">
               <h2 className="text-xl font-bold md:text-2xl">
-                Blog title heading will go here
+                Go Wild or Go Home
               </h2>
             </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
-            <Button
+            <a
               title="Read more"
-              variant="link"
+              href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html"
               size="link"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
             >
               Read more
-            </Button>
+            </a>
           </div>
           <div className="flex size-full flex-col items-start justify-start text-start">
-            <a href="#" className="mb-6 w-full">
+            <a href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html" className="mb-6 w-full">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="/src/public/assets/Blog_R.jpg"
                 alt="Relume placeholder image 1"
                 className="aspect-[3/2] size-full object-cover"
               />
             </a>
             <div className="rb-4 mb-4 flex w-full items-center justify-start">
               <p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
-                Category
+                Confidence
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
             </div>
-            <a className="mb-2 flex justify-start text-start" href="#">
+            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html">
               <h2 className="text-xl font-bold md:text-2xl">
-                Blog title heading will go here
+                Your perspective determines your reality
               </h2>
             </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
-            <Button
+            <a
               title="Read more"
-              variant="link"
+              href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html"
               size="link"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
             >
               Read more
-            </Button>
+            </a>
           </div>
           <div className="flex size-full flex-col items-start justify-start text-start">
-            <a href="#" className="mb-6 w-full">
+            <a href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html" className="mb-6 w-full">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="/src/public/assets/Blog_L.jpg"
                 alt="Relume placeholder image 1"
                 className="aspect-[3/2] size-full object-cover"
               />
             </a>
             <div className="rb-4 mb-4 flex w-full items-center justify-start">
               <p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
-                Category
+                Leadership
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
             </div>
-            <a className="mb-2 flex justify-start text-start" href="#">
+            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html">
               <h2 className="text-xl font-bold md:text-2xl">
-                Blog title heading will go here
+                The weight of the crown
               </h2>
             </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
-            <Button
+            <a
               title="Read more"
-              variant="https://mindshifttttttt.blogspot.com/"
-              size="link"
+              href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
             >
               Read more
-            </Button>
+            </a>
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Button
+
+          <a href="https://mindshifttttttt.blogspot.com/"
             title="View all"
-            variant="https://mindshifttttttt.blogspot.com/"
-            className="mt-10 md:mt-14 lg:mt-16"
-            href="https://mindshifttttttt.blogspot.com/"
-          >
-            View all
-          </Button>
+            className="mt-10 md:mt-14 lg:mt-16">View all</a>
         </div>
       </div>
     </section>
