@@ -12,7 +12,7 @@ export function Layout237() {
           <div className="rb-12 mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
             <p className="mb-3 font-semibold md:mb-4">Tagline</p>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Medium length section heading goes here
+              Why Work With Me
             </h2>
             <p className="md:text-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -31,12 +31,11 @@ export function Layout237() {
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Medium length section heading goes here
+                Client-Centric Focus
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla.
+                I prioritize understanding your vision, ensuring every project is tailored to your specific goals and
+                delivers measurable results.
               </p>
             </div>
             <div className="flex w-full flex-col items-center text-center">
@@ -48,12 +47,11 @@ export function Layout237() {
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Medium length section heading goes here
+                Reliable Delivery
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla.
+                With a track record of meeting deadlines and exceeding expectations, I bring professionalism and
+                dependability to every collaboration.
               </p>
             </div>
             <div className="flex w-full flex-col items-center text-center">
@@ -65,12 +63,11 @@ export function Layout237() {
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Medium length section heading goes here
+                Continuous Improvement
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla.
+                My commitment to staying updated with the latest technologies and trends ensures your website is built
+                with cutting-edge tools and best practices.
               </p>
             </div>
           </div>

@@ -2,7 +2,7 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
-import Bg from "/src/assets/Bg.mp4"
+import Bg from "/src/public/assets/Bg.mp4"
 
 export function Header9() {
   return (

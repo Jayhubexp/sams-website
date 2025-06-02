@@ -17,7 +17,7 @@ export default function Page() {
       <Header64 />
       <Header15 />
       <Layout25 />
-      <Logo1 />
+      {/* <Logo1 /> */}
       <Layout237 />
       <Blog34 />
       <Faq4 />

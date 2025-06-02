@@ -40,8 +40,8 @@ export function PortfolioHeader9() {
           </div>
           <div>
             <p className="md:text-md">
-              Samuel approaches each project with a focus on user experience and
-              functionality. He excels in leveraging modern technologies to
+              I approach each project with a focus on user experience and
+              functionality. I excel in leveraging modern technologies to
               create seamless web solutions.
             </p>
           </div>

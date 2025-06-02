@@ -12,7 +12,7 @@ export function Blog34() {
           <div className="mx-auto w-full max-w-lg text-center">
             <p className="mb-3 font-semibold md:mb-4">Blog</p>
             <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
-              Short heading goes here
+              Iron and Wisdom
             </h1>
             <p className="md:text-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -111,7 +111,7 @@ export function Blog34() {
             </p>
             <Button
               title="Read more"
-              variant="link"
+              variant="https://mindshifttttttt.blogspot.com/"
               size="link"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
@@ -123,8 +123,9 @@ export function Blog34() {
         <div className="flex items-center justify-center">
           <Button
             title="View all"
-            variant="secondary"
+            variant="https://mindshifttttttt.blogspot.com/"
             className="mt-10 md:mt-14 lg:mt-16"
+            href="https://mindshifttttttt.blogspot.com/"
           >
             View all
           </Button>

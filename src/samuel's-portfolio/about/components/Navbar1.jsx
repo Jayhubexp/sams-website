@@ -48,7 +48,7 @@ export function Navbar1() {
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href="/">
             <img
-              src="/src/assets/Group.png"
+              src="/src/public/assets/Group.png"
               alt="Logo image"
               className="max-h-12 lg:max-h-16 object-contain"
             />

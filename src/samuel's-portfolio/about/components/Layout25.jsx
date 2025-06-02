@@ -12,26 +12,28 @@ export function Layout25() {
           <div>
             <p className="mb-3 font-semibold md:mb-4">Tagline</p>
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Medium length section heading goes here
+              My Expertise
             </h2>
             <p className="mb-6 md:mb-8 md:text-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+              I specialize in building responsive, user-friendly interfaces using React and WordPress. My focus on clean
+              code and intuitive design ensures websites are both aesthetically pleasing and highly functional across
+              devices. Beyond front-end, I leverage Node.js, MongoDB, and Express to create robust servers and APIs,
+              ensuring seamless integration between front-end and back-end for dynamic applications. With a meticulous
+              eye for detail, I prioritize pixel-perfect designs and smooth user experiences, tailoring each project
+              to align with the clients brand and goals.
             </p>
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
               <div>
                 <h3 className="mb-2 text-5xl font-bold md:text-7xl lg:text-8xl">
-                  50%
+                  100%
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Front-End Development.</p>
               </div>
               <div>
                 <h3 className="mb-2 text-5xl font-bold md:text-7xl lg:text-8xl">
                   50%
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Full-Stack Capabilities.</p>
               </div>
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
