@@ -119,12 +119,12 @@ export function Navbar1() {
           >
             About
           </a>
-          <a
+          {/* <a
             href="/portfolio"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             Portfolio
-          </a>
+          </a> */}
           <div
             onMouseEnter={useActive.openOnDesktopDropdownMenu}
             onMouseLeave={useActive.closeOnDesktopDropdownMenu}

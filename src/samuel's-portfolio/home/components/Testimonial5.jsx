@@ -37,8 +37,8 @@ export function Testimonial5() {
                 />
               </div>
               <div className="mb-4 md:mb-0">
-                <p className="font-semibold">Jane Doe</p>
-                <p>Project Manager, TechCorp</p>
+                <p className="font-semibold">Godwin Ayesu</p>
+                <p>Project Manager, FNB</p>
               </div>
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>
@@ -64,14 +64,14 @@ export function Testimonial5() {
             <div className="mt-6 flex w-full flex-col gap-3 md:mt-8 md:w-auto md:flex-row md:items-center md:gap-5">
               <div>
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+                  src="/src/public/assets/Apple.jpg"
                   alt="Testimonial avatar 1"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
                 />
               </div>
               <div className="mb-4 md:mb-0">
-                <p className="font-semibold">John Smith</p>
-                <p>CEO, Innovate Inc.</p>
+                <p className="font-semibold">Henry Doe</p>
+                <p>CEO, Insait Inc.</p>
               </div>
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>

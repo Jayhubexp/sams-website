@@ -9,10 +9,10 @@ export function Cta19() {
       <div className="container">
         <div className="w-full max-w-lg">
           <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-            Discover Samuel's Creative Work
+            Discover My Creative Work
           </h2>
           <p className="md:text-md">
-            Explore Samuel's portfolio or connect for exciting collaboration
+            Explore my portfolio or connect for exciting collaboration
             opportunities in web development.
           </p>
           <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
