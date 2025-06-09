@@ -29,7 +29,7 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/src/public/assets/Html.jpg"
+                  src="/assets/Html.jpg"
                   alt="Relume logo"
                   className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
@@ -42,7 +42,7 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/src/public/assets/React-JS-Logo.jpg"
+                  src="/assets/React-JS-Logo.jpg"
                   alt="React logo"
                   className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
@@ -55,7 +55,7 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/src/public/assets/node.jpg"
+                  src="/assets/node.jpg"
                   alt="Nodejs logo"
                   className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />

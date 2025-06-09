@@ -21,7 +21,7 @@ export function Layout3() {
           </div>
           <div>
             <img
-              src="/src/public/assets/FullStack.jpg"
+              src="/assets/FullStack.jpg"
               className="w-full object-cover"
               alt="Expertise image"
             />

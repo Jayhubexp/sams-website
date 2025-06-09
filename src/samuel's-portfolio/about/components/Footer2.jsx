@@ -38,7 +38,7 @@ export function Footer2() {
               className="sm:col-start-1 sm:col-end-4 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
             >
               <img
-                src="/src/public/assets/Group.png"
+                src="/assets/Group.png"
                 alt="Logo image"
                 className="max-h-12 lg:max-h-16 object-contain"
               />

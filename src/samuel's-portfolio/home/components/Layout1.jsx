@@ -36,7 +36,7 @@ export function Layout1() {
           </div>
           <div>
             <img
-              src="/src/public/assets/Me.jpg"
+              src="/assets/Me.jpg"
               className="w-full object-cover"
               alt="Relume placeholder image"
             />

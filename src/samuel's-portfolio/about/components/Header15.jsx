@@ -34,7 +34,7 @@ export function Header15() {
         </div>
         <div>
           <img
-            src="/src/public/assets/Me.jpg"
+            src="/assets/Me.jpg"
             className="w-full object-cover"
             alt="Samuel's image"
           />

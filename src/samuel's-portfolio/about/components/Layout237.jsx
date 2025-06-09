@@ -25,7 +25,7 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/src/public/assets/Client.jpg"
+                  src="/assets/Client.jpg"
                   alt="Relume logo 1"
                   className="size-22"
                 />
@@ -41,7 +41,7 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/src/public/assets/Delivery.jpg"
+                  src="/assets/Delivery.jpg"
                   alt="Delivery logo"
                   className="size-22"
                 />
@@ -57,7 +57,7 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/src/public/assets/Improvement.jpg"
+                  src="/assets/Improvement.jpg"
                   alt="Relume logo 1"
                   className="size-22"
                 />

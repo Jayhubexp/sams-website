@@ -51,7 +51,7 @@ export function Layout25() {
             </div>
           </div>
           <img
-            src="/src/public/assets/Expert.jpg"
+            src="/assets/Expert.jpg"
             className="w-full object-cover"
             alt="Relume placeholder image"
           />

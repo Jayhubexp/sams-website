@@ -43,7 +43,7 @@ export function Testimonial5() {
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>
                 <img
-                  src="/src/public/assets/Ellipse 3.png"
+                  src="/assets/Ellipse 3.png"
                   alt="Webflow logo 1"
                   className="max-h-16"
                 />
@@ -64,7 +64,7 @@ export function Testimonial5() {
             <div className="mt-6 flex w-full flex-col gap-3 md:mt-8 md:w-auto md:flex-row md:items-center md:gap-5">
               <div>
                 <img
-                  src="/src/public/assets/Apple.jpg"
+                  src="/assets/Apple.jpg"
                   alt="Testimonial avatar 1"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
                 />
