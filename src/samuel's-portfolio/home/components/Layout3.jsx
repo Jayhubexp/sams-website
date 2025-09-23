@@ -23,7 +23,9 @@ export function Layout3() {
             <img
               src="/FullStack.jpg"
               className="w-full object-cover"
-              alt="Expertise image"
+              alt="Fullstack development illustration"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

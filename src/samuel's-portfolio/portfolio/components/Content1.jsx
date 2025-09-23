@@ -42,7 +42,9 @@ export function Content1() {
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
                 className="w-full object-cover"
-                alt="Relume placeholder image"
+                alt="Project screenshot"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

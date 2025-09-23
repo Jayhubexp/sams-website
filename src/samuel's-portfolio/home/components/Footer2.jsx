@@ -37,11 +37,14 @@ export function Footer2() {
             <a
               href="/"
               className="sm:col-start-1 sm:col-end-4 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
+              aria-label="Home"
             >
               <img
                 src="/Group.png"
-                alt="Logo image"
+                alt="Samuel Johnson logo"
                 className="max-h-12 lg:max-h-16 object-contain"
+                loading="lazy"
+                decoding="async"
               />
             </a>
             <div className="flex flex-col items-start justify-start">
@@ -134,7 +137,7 @@ export function Footer2() {
             </div>
           </div>
         </div>
-        <div className="h-px w-full bg-black" />
+        <div className="h-px w-full hr-theme" />
         <div className="flex flex-col-reverse items-start pb-4 pt-6 text-sm md:justify-start md:pb-0 md:pt-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-col-reverse items-start md:flex-row md:gap-6 lg:items-center">
             <div className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 md:grid-flow-col md:justify-center md:gap-x-6 md:gap-y-0 lg:text-left">
@@ -144,20 +147,20 @@ export function Footer2() {
             </div>
           </div>
           <div className="mb-8 flex items-center justify-center gap-3 lg:mb-0">
-            <a href="https://snapchat.com/t/qC4xmRs3">
+            <a href="https://snapchat.com/t/qC4xmRs3" aria-label="Snapchat">
               <FaSnapchat className="size-6" />
             </a>
             <a href="https://www.instagram.com/_super.sam?igsh=b2hkOGNqM2tvbng1&utm_source=qr
-">
+" aria-label="Instagram">
               <BiLogoInstagram className="size-6" />
             </a>
-            <a href="https://x.com/SamuelJohn95977">
+            <a href="https://x.com/SamuelJohn95977" aria-label="X">
               <FaXTwitter className="size-6 p-0.5" />
             </a>
-            <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/">
+            <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/" aria-label="LinkedIn">
               <BiLogoLinkedinSquare className="size-6" />
             </a>
-            <a href="https://t.me/brighttday">
+            <a href="https://t.me/brighttday" aria-label="Telegram">
               <FaTelegram className="size-6" />
             </a>
 

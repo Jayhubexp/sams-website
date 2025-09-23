@@ -17,17 +17,17 @@ export function Cta1() {
               together effectively.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-              <Button title="Contact">Contact</Button>
-              <Button title="Inquire" variant="secondary">
-                Inquire
-              </Button>
+              <a href="#contact-button" className="btn-theme px-4 py-2 rounded-md inline-block">Contact</a>
+              <a href="#inquire" className="px-4 py-2 rounded-md inline-block border">Inquire</a>
             </div>
           </div>
           <div>
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
               className="w-full object-cover"
-              alt="Relume placeholder image"
+              alt="Call to action image"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

@@ -14,11 +14,15 @@ export function Logo1() {
             src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
             alt="Webflow logo 1"
             className="max-h-12 md:max-h-14"
+            loading="lazy"
+            decoding="async"
           />
           <img
             src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
             alt="Relume logo 1"
             className="max-h-12 md:max-h-14"
+            loading="lazy"
+            decoding="async"
           />
           <img
             src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"

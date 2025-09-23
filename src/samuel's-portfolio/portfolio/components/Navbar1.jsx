@@ -2,7 +2,7 @@
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { RxChevronDown } from "react-icons/rx";
 
 const useRelume = () => {
@@ -39,18 +39,39 @@ const useRelume = () => {
 
 export function Navbar1() {
   const useActive = useRelume();
+  const [theme, setTheme] = useState(() => {
+    if (typeof window === "undefined") return "default";
+    if (document.documentElement.classList.contains("theme-teal")) return "teal";
+    return localStorage.getItem("portfolio-theme") || "default";
+  });
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const root = document.documentElement;
+    root.classList.remove("theme-dark", "theme-teal");
+    if (theme === "teal") root.classList.add("theme-teal");
+    try { localStorage.setItem("portfolio-theme", theme); } catch (e) { }
+  }, [theme]);
+
+  const cycleTheme = () => {
+    setTheme((t) => (t === "default" ? "teal" : "default"));
+  };
   return (
-    <section
+    <nav
       id="relume"
-      className="flex w-full items-center border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%]"
+      role="navigation"
+      aria-label="Main navigation"
+      className="flex w-full items-center border-b border-theme bg-theme lg:min-h-18 lg:px-[5%]"
     >
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
-          <a href="/">
+          <a href="/" aria-label="Home">
             <img
               src="/Group.png"
-              alt="Logo image"
+              alt="Samuel Johnson logo"
               className="max-h-12 lg:max-h-16 object-contain"
+              loading="lazy"
+              decoding="async"
             />
           </a>
           <button
@@ -58,7 +79,7 @@ export function Navbar1() {
             onClick={useActive.toggleMobileMenu}
           >
             <motion.span
-              className="my-[3px] h-0.5 w-6 bg-black"
+              className="my-[3px] h-0.5 w-6 bar-theme"
               animate={useActive.animateMobileMenuButtonSpan}
               variants={{
                 open: { translateY: 8, transition: { delay: 0.1 } },
@@ -71,7 +92,7 @@ export function Navbar1() {
               }}
             />
             <motion.span
-              className="my-[3px] h-0.5 w-6 bg-black"
+              className="my-[3px] h-0.5 w-6 bar-theme"
               animate={useActive.animateMobileMenu}
               variants={{
                 open: { width: 0, transition: { duration: 0.1 } },
@@ -82,7 +103,7 @@ export function Navbar1() {
               }}
             />
             <motion.span
-              className="my-[3px] h-0.5 w-6 bg-black"
+              className="my-[3px] h-0.5 w-6 bar-theme"
               animate={useActive.animateMobileMenuButtonSpan}
               variants={{
                 open: { translateY: -8, transition: { delay: 0.1 } },
@@ -105,7 +126,7 @@ export function Navbar1() {
           exit="close"
           animate={useActive.animateMobileMenu}
           transition={{ duration: 0.4 }}
-          className="overflow-hidden px-[5%] lg:flex lg:items-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
+          className="overflow-hidden px-[5%] lg:flex lg:items-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto] text-theme"
         >
           <a
             href="/"
@@ -162,7 +183,7 @@ export function Navbar1() {
                 initial="close"
                 exit="close"
                 transition={{ duration: 0.2 }}
-                className="bg-background-primary lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
+                className="bg-surface lg:absolute lg:z-50 lg:border lg:border-theme lg:p-2 lg:[--y-close:25%]"
               >
                 <a
                   href="mailto:samueljohnsonsokpoli@gmail.com"
@@ -186,8 +207,19 @@ export function Navbar1() {
             </AnimatePresence>
           </div>
 
+          <div className="flex items-center gap-3 lg:ml-4">
+            <button
+              onClick={cycleTheme}
+              aria-label="Toggle color theme"
+              title="Toggle color theme"
+              className="inline-flex items-center justify-center rounded px-3 py-2 text-sm border"
+            >
+              {theme === "default" ? "light theme" : "lighter theme"}
+            </button>
+          </div>
+
         </motion.div>
       </div>
-    </section>
+    </nav>
   );
 }

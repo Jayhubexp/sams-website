@@ -16,10 +16,8 @@ export function Cta19() {
             opportunities in web development.
           </p>
           <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-            <a href="/portfolio"><Button title="View">View</Button></a>
-            <a href="#contact-button"><Button title="Contact" variant="secondary">
-              Contact
-            </Button></a>
+            <a href="/portfolio" aria-label="View portfolio" className="btn-theme px-4 py-2 rounded-md inline-block">View</a>
+            <a href="#contact-button" aria-label="Contact" className="px-4 py-2 rounded-md inline-block border">Contact</a>
           </div>
         </div>
       </div>

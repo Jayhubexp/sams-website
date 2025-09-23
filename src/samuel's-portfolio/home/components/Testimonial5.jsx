@@ -33,20 +33,24 @@ export function Testimonial5() {
               <div>
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                  alt="Testimonial avatar 1"
+                  alt="Avatar for Godwin Ayesu"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="mb-4 md:mb-0">
                 <p className="font-semibold">Godwin Ayesu</p>
                 <p>Project Manager, FNB</p>
               </div>
-              <div className="hidden w-px self-stretch bg-black md:block" />
+              <div className="hidden w-px self-stretch hr-theme md:block" />
               <div>
                 <img
                   src="/Ellipse 3.png"
-                  alt="Webflow logo 1"
+                  alt="Client logo"
                   className="max-h-16"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -66,15 +70,17 @@ export function Testimonial5() {
               <div>
                 <img
                   src="/Apple.jpg"
-                  alt="Testimonial avatar 1"
+                  alt="Avatar for Henry Doe"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="mb-4 md:mb-0">
                 <p className="font-semibold">Henry Doe</p>
                 <p>CEO, Insait Inc.</p>
               </div>
-              <div className="hidden w-px self-stretch bg-black md:block" />
+              <div className="hidden w-px self-stretch hr-theme md:block" />
               <div>
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"

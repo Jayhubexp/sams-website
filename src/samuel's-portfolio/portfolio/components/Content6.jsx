@@ -11,19 +11,25 @@ export function Content6() {
             <div>
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
+                alt="Project image 1"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
+                alt="Project image 2"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
+                alt="Project image 3"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

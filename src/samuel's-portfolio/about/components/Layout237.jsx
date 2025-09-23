@@ -23,8 +23,10 @@ export function Layout237() {
               <div className="rb-5 mb-5 md:mb-6">
                 <img
                   src="/Client.jpg"
-                  alt="Relume logo 1"
+                  alt="Client focused service image"
                   className="size-22"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
@@ -39,8 +41,10 @@ export function Layout237() {
               <div className="rb-5 mb-5 md:mb-6">
                 <img
                   src="/Delivery.jpg"
-                  alt="Delivery logo"
+                  alt="On-time delivery image"
                   className="size-22"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
@@ -55,8 +59,10 @@ export function Layout237() {
               <div className="rb-5 mb-5 md:mb-6">
                 <img
                   src="/Improvement.jpg"
-                  alt="Relume logo 1"
+                  alt="Continuous improvement image"
                   className="size-22"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">

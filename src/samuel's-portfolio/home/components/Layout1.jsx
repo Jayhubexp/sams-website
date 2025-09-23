@@ -26,7 +26,9 @@ export function Layout1() {
             <img
               src="/Me.JPG"
               className="w-full object-cover"
-              alt="Relume placeholder image"
+              alt="Portrait of Samuel Johnson"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

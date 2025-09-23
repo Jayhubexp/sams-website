@@ -29,11 +29,11 @@ export function Faq4() {
         >
           <AccordionItem
             value="item-0"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-theme px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-theme transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -48,11 +48,11 @@ export function Faq4() {
           </AccordionItem>
           <AccordionItem
             value="item-1"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-theme px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-theme transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -67,11 +67,11 @@ export function Faq4() {
           </AccordionItem>
           <AccordionItem
             value="item-2"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-theme px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-theme transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -86,11 +86,11 @@ export function Faq4() {
           </AccordionItem>
           <AccordionItem
             value="item-3"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-theme px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-theme transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
@@ -105,11 +105,11 @@ export function Faq4() {
           </AccordionItem>
           <AccordionItem
             value="item-4"
-            className="border border-border-primary px-5 md:px-6"
+            className="border border-theme px-5 md:px-6"
           >
             <AccordionTrigger
               icon={
-                <RxPlus className="size-7 shrink-0 text-text-primary transition-transform duration-300 md:size-8" />
+                <RxPlus className="size-7 shrink-0 text-theme transition-transform duration-300 md:size-8" />
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >

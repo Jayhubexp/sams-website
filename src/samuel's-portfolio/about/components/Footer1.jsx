@@ -33,11 +33,13 @@ export function Footer1() {
       <div className="container">
         <div className="grid grid-cols-1 gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[0.75fr_1fr] lg:gap-y-4 lg:pb-20">
           <div className="flex flex-col">
-            <a href="/" className="mb-5 md:mb-6">
+            <a href="/" className="mb-5 md:mb-6" aria-label="Home">
               <img
                 src="/Group.png"
-                alt="Logo image"
+                alt="Samuel Johnson logo"
                 className="max-h-12 lg:max-h-16 object-contain"
+                loading="lazy"
+                decoding="async"
               />
             </a>
             <p className="mb-5 md:mb-6">
@@ -48,12 +50,15 @@ export function Footer1() {
                 className="mb-3 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-[1fr_max-content] md:gap-y-4"
                 onSubmit={formState.handleSubmit}
               >
+                {/* associate label for accessibility if Input does not provide one */}
+                <label htmlFor="email" className="sr-only">Email address</label>
                 <Input
                   id="email"
                   type="email"
                   placeholder="Enter your email"
                   value={formState.email}
                   onChange={formState.handleSetEmail}
+                  aria-label="Email address"
                 />
                 <Button title="Subscribe" variant="secondary" size="sm">
                   Subscribe
@@ -131,31 +136,31 @@ export function Footer1() {
               <ul className="flex flex-col items-start">
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
-                    <BiLogoFacebookCircle className="size-6" />
+                    <BiLogoFacebookCircle className="size-6" aria-hidden="true" />
                     <span>Facebook</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
-                    <BiLogoInstagram className="size-6" />
+                    <BiLogoInstagram className="size-6" aria-hidden="true" />
                     <span>Instagram</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
-                    <FaXTwitter className="size-6 p-0.5" />
+                    <FaXTwitter className="size-6 p-0.5" aria-hidden="true" />
                     <span>X</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
-                    <BiLogoLinkedinSquare className="size-6" />
+                    <BiLogoLinkedinSquare className="size-6" aria-hidden="true" />
                     <span>LinkedIn</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
-                    <BiLogoYoutube className="size-6" />
+                    <BiLogoYoutube className="size-6" aria-hidden="true" />
                     <span>Youtube</span>
                   </a>
                 </li>
@@ -163,7 +168,7 @@ export function Footer1() {
             </div>
           </div>
         </div>
-        <div className="h-px w-full bg-black" />
+        <div className="h-px w-full hr-theme" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
           <p className="mt-6 md:mt-0">© 2024 Relume. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">

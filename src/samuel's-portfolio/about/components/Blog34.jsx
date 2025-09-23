@@ -24,12 +24,14 @@ export function Blog34() {
             <a href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html" className="mb-6 w-full">
               <img
                 src="/Blog_G.jpg"
-                alt="Relume placeholder image 1"
+                alt="Blog post: Go Wild or Go Home cover"
                 className="aspect-[3/2] size-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </a>
             <div className="rb-4 mb-4 flex w-full items-center justify-start">
-              <p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
+              <p className="mr-4 bg-accent-soft px-2 py-1 text-sm font-semibold text-theme">
                 Growth
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
@@ -57,12 +59,14 @@ export function Blog34() {
             <a href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html" className="mb-6 w-full">
               <img
                 src="/Blog_R.jpg"
-                alt="Relume placeholder image 1"
+                alt="Blog post: Your perspective determines your reality cover"
                 className="aspect-[3/2] size-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </a>
             <div className="rb-4 mb-4 flex w-full items-center justify-start">
-              <p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
+              <p className="mr-4 bg-accent-soft px-2 py-1 text-sm font-semibold text-theme">
                 Confidence
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
@@ -90,12 +94,14 @@ export function Blog34() {
             <a href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html" className="mb-6 w-full">
               <img
                 src="/Blog_L.jpg"
-                alt="Relume placeholder image 1"
+                alt="Blog post: The weight of the crown cover"
                 className="aspect-[3/2] size-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </a>
             <div className="rb-4 mb-4 flex w-full items-center justify-start">
-              <p className="mr-4 bg-background-secondary px-2 py-1 text-sm font-semibold">
+              <p className="mr-4 bg-accent-soft px-2 py-1 text-sm font-semibold text-theme">
                 Leadership
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>

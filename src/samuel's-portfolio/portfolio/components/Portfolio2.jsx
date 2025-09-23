@@ -25,7 +25,9 @@ export function Portfolio2() {
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
                   className="w-full object-cover"
-                  alt="Relume placeholder image"
+                  alt="E-commerce platform screenshot"
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>
             </div>
@@ -38,7 +40,7 @@ export function Portfolio2() {
                   <li className="flex">
                     <a
                       href="#"
-                      className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                      className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       Web Development
                     </a>
@@ -46,7 +48,7 @@ export function Portfolio2() {
                   <li className="flex">
                     <a
                       href="#"
-                      className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                      className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       Responsive Design
                     </a>
@@ -54,7 +56,7 @@ export function Portfolio2() {
                   <li className="flex">
                     <a
                       href="#"
-                      className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                      className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       E-commerce
                     </a>
@@ -76,7 +78,9 @@ export function Portfolio2() {
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
                   className="w-full object-cover"
-                  alt="Relume placeholder image"
+                  alt="Portfolio website screenshot"
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>
             </div>
@@ -89,7 +93,7 @@ export function Portfolio2() {
                   <li className="flex">
                     <a
                       href="#"
-                      className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                      className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       WordPress Development
                     </a>
@@ -97,7 +101,7 @@ export function Portfolio2() {
                   <li className="flex">
                     <a
                       href="#"
-                      className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                      className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       Custom Themes
                     </a>
@@ -105,7 +109,7 @@ export function Portfolio2() {
                   <li className="flex">
                     <a
                       href="#"
-                      className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                      className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       SEO Optimized
                     </a>
@@ -123,9 +127,9 @@ export function Portfolio2() {
           </div>
         </div>
         <div className="mt-12 flex justify-center md:mt-18 lg:mt-20">
-          <Button title="View all" variant="secondary" size="primary">
+          <a href="#" className="btn-theme inline-block px-6 py-3 rounded text-sm font-semibold">
             View all
-          </Button>
+          </a>
         </div>
       </div>
     </section>

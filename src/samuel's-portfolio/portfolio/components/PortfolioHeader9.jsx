@@ -15,7 +15,7 @@ export function PortfolioHeader9() {
               <li className="flex">
                 <a
                   href="#"
-                  className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                  className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                 >
                   JavaScript
                 </a>
@@ -23,7 +23,7 @@ export function PortfolioHeader9() {
               <li className="flex">
                 <a
                   href="#"
-                  className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                  className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                 >
                   React Framework
                 </a>
@@ -31,7 +31,7 @@ export function PortfolioHeader9() {
               <li className="flex">
                 <a
                   href="#"
-                  className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                  className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                 >
                   API Integration
                 </a>

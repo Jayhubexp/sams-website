@@ -134,7 +134,7 @@ export function Footer2() {
             </div>
           </div>
         </div>
-        <div className="h-px w-full bg-black" />
+        <div className="h-px w-full hr-theme" />
         <div className="flex flex-col-reverse items-start pb-4 pt-6 text-sm md:justify-start md:pb-0 md:pt-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-col-reverse items-start md:flex-row md:gap-6 lg:items-center">
             <div className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 md:grid-flow-col md:justify-center md:gap-x-6 md:gap-y-0 lg:text-left">

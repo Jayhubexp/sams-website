@@ -41,7 +41,9 @@ export function Layout25() {
           <img
             src="/Expert.jpg"
             className="w-full object-cover"
-            alt="Relume placeholder image"
+            alt="Expert services illustration"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

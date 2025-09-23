@@ -31,7 +31,9 @@ export function Header15() {
           <img
             src="/Me.JPG"
             className="w-full object-cover"
-            alt="Samuel's image"
+            alt="Portrait of Samuel Johnson"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>
