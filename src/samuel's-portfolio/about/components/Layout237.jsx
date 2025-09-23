@@ -10,22 +10,19 @@ export function Layout237() {
       <div className="container">
         <div className="flex flex-col items-center">
           <div className="rb-12 mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
-            <p className="mb-3 font-semibold md:mb-4">Tagline</p>
+
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
               Why Work With Me
             </h2>
             <p className="md:text-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+              I'm dedicated to delivering tangible results that align with your goals. I combine strategic thinking with proven expertise to solve problems efficiently, ensuring your project is not just completed, but completed with a standard of excellence that drives real growth.
             </p>
           </div>
           <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/assets/Client.jpg"
+                  src="/Client.jpg"
                   alt="Relume logo 1"
                   className="size-22"
                 />
@@ -41,7 +38,7 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/assets/Delivery.jpg"
+                  src="/Delivery.jpg"
                   alt="Delivery logo"
                   className="size-22"
                 />
@@ -57,7 +54,7 @@ export function Layout237() {
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/assets/Improvement.jpg"
+                  src="/Improvement.jpg"
                   alt="Relume logo 1"
                   className="size-22"
                 />
@@ -71,12 +68,7 @@ export function Layout237() {
               </p>
             </div>
           </div>
-          <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16">
-            <Button variant="secondary">Button</Button>
-            <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              Button
-            </Button>
-          </div>
+
         </div>
       </div>
     </section>

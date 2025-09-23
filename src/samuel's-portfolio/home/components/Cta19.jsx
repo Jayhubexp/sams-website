@@ -16,10 +16,10 @@ export function Cta19() {
             opportunities in web development.
           </p>
           <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-            <Button title="View">View</Button>
-            <Button title="Contact" variant="secondary">
+            <a href="/portfolio"><Button title="View">View</Button></a>
+            <a href="#contact-button"><Button title="Contact" variant="secondary">
               Contact
-            </Button>
+            </Button></a>
           </div>
         </div>
       </div>

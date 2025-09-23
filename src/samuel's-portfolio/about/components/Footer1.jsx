@@ -35,7 +35,7 @@ export function Footer1() {
           <div className="flex flex-col">
             <a href="/" className="mb-5 md:mb-6">
               <img
-                src="/src/assets/Group.png"
+                src="/Group.png"
                 alt="Logo image"
                 className="max-h-12 lg:max-h-16 object-contain"
               />

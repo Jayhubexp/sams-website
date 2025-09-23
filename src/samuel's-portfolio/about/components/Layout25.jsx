@@ -10,7 +10,7 @@ export function Layout25() {
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
-            <p className="mb-3 font-semibold md:mb-4">Tagline</p>
+
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
               My Expertise
             </h2>
@@ -36,22 +36,10 @@ export function Layout25() {
                 <p>Full-Stack Capabilities.</p>
               </div>
             </div>
-            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Button" variant="secondary">
-                Button
-              </Button>
-              <Button
-                title="Button"
-                variant="link"
-                size="link"
-                iconRight={<RxChevronRight />}
-              >
-                Button
-              </Button>
-            </div>
+
           </div>
           <img
-            src="/assets/Expert.jpg"
+            src="/Expert.jpg"
             className="w-full object-cover"
             alt="Relume placeholder image"
           />

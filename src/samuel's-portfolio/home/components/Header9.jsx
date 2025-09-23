@@ -2,7 +2,8 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
-import Bg from "/src/public/assets/Bg.mp4"
+// Use the top-level public folder for static assets. Reference by root-relative path when not importing.
+import Bg from "/Bg.mp4";
 
 export function Header9() {
   return (
@@ -35,12 +36,7 @@ export function Header9() {
                 developer passionate about creating seamless and interactive web
                 applications, Look no further!
               </p>
-              <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button title="Learn More">Learn More</Button>
-                <Button title="Contact" variant="secondary">
-                  Contact
-                </Button>
-              </div>
+
             </div>
           </div>
         </div>

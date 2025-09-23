@@ -12,7 +12,8 @@ export function Testimonial5() {
             Client Feedback
           </h1>
           <p className="md:text-md">
-            Samuel exceeded our expectations with his exceptional skills.
+            Don't just take my word for it—here's what my clients have to say
+            about working with me:
           </p>
         </div>
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 lg:gap-16">
@@ -43,7 +44,7 @@ export function Testimonial5() {
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>
                 <img
-                  src="/assets/Ellipse 3.png"
+                  src="/Ellipse 3.png"
                   alt="Webflow logo 1"
                   className="max-h-16"
                 />
@@ -64,7 +65,7 @@ export function Testimonial5() {
             <div className="mt-6 flex w-full flex-col gap-3 md:mt-8 md:w-auto md:flex-row md:items-center md:gap-5">
               <div>
                 <img
-                  src="/assets/Apple.jpg"
+                  src="/Apple.jpg"
                   alt="Testimonial avatar 1"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
                 />

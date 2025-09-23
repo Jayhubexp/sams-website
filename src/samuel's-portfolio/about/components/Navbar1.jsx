@@ -48,7 +48,7 @@ export function Navbar1() {
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href="/">
             <img
-              src="/assets/Group.png"
+              src="/Group.png"
               alt="Logo image"
               className="max-h-12 lg:max-h-16 object-contain"
             />
@@ -185,19 +185,7 @@ export function Navbar1() {
               </motion.nav>
             </AnimatePresence>
           </div>
-          <div className="mt-6 flex flex-col items-center gap-4 lg:ml-4 lg:mt-0 lg:flex-row">
-            <Button
-              title="Button"
-              variant="secondary"
-              size="sm"
-              className="w-full"
-            >
-              Button
-            </Button>
-            <Button title="Button" size="sm" className="w-full">
-              Button
-            </Button>
-          </div>
+
         </motion.div>
       </div>
     </section>

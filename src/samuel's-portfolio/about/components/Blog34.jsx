@@ -23,7 +23,7 @@ export function Blog34() {
           <div className="flex size-full flex-col items-start justify-start text-start">
             <a href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html" className="mb-6 w-full">
               <img
-                src="/assets/Blog_G.jpg"
+                src="/Blog_G.jpg"
                 alt="Relume placeholder image 1"
                 className="aspect-[3/2] size-full object-cover"
               />
@@ -56,7 +56,7 @@ export function Blog34() {
           <div className="flex size-full flex-col items-start justify-start text-start">
             <a href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html" className="mb-6 w-full">
               <img
-                src="/assets/Blog_R.jpg"
+                src="/Blog_R.jpg"
                 alt="Relume placeholder image 1"
                 className="aspect-[3/2] size-full object-cover"
               />
@@ -89,7 +89,7 @@ export function Blog34() {
           <div className="flex size-full flex-col items-start justify-start text-start">
             <a href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html" className="mb-6 w-full">
               <img
-                src="/assets/Blog_L.jpg"
+                src="/Blog_L.jpg"
                 alt="Relume placeholder image 1"
                 className="aspect-[3/2] size-full object-cover"
               />

@@ -32,13 +32,13 @@ export function Footer2() {
     <footer id="relume" className="px-[5%] py-12 md:py-18 lg:py-20">
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[1fr_0.5fr] lg:gap-y-4 lg:pb-20">
-          <div className="grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 md:gap-x-8 lg:grid-cols-4">
+          <div className="grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 md:gap-x-8 lg:grid-cols-3">
             <a
               href="/"
-              className="sm:col-start-1 sm:col-end-4 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
+              className="sm:col-start-1 sm:col-end-3 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
             >
               <img
-                src="/assets/Group.png"
+                src="/Group.png"
                 alt="Logo image"
                 className="max-h-12 lg:max-h-16 object-contain"
               />
@@ -104,36 +104,7 @@ export function Footer2() {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col items-start justify-start">
-              <h2 className="mb-3 font-semibold md:mb-4">Stay Updated</h2>
-              <ul>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    Latest News
-                  </a>
-                </li>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    New Features
-                  </a>
-                </li>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    Special Offers
-                  </a>
-                </li>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    Event Alerts
-                  </a>
-                </li>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    Webinars Info
-                  </a>
-                </li>
-              </ul>
-            </div>
+
           </div>
           <div className="flex flex-col">
             <h1 className="mb-3 font-semibold md:mb-4">Subscribe</h1>
@@ -173,7 +144,7 @@ export function Footer2() {
             </div>
           </div>
           <div className="mb-8 flex items-center justify-center gap-3 lg:mb-0">
-            <a href="#">
+            <a href="https://snapchat.com/t/qC4xmRs3">
               <FaSnapchat className="size-6" />
             </a>
             <a href="https://www.instagram.com/_super.sam?igsh=b2hkOGNqM2tvbng1&utm_source=qr

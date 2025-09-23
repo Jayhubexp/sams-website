@@ -29,7 +29,7 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/assets/Html.jpg"
+                  src="/Html.jpg"
                   alt="Relume logo"
                   className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
@@ -42,7 +42,7 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/assets/React-JS-Logo.jpg"
+                  src="/React-JS-Logo.jpg"
                   alt="React logo"
                   className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
@@ -55,7 +55,7 @@ export function Layout245() {
             <div>
               <div className="rb-5 mb-5 md:mb-6">
                 <img
-                  src="/assets/node.jpg"
+                  src="/node.jpg"
                   alt="Nodejs logo"
                   className="w-full max-w-[80px] md:max-w-[100px] lg:max-w-[120px]"
                 />
@@ -69,12 +69,7 @@ export function Layout245() {
               </p>
             </div>
           </div>
-          <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16">
-            <Button variant="secondary" >Learn More</Button>
-            <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              Contact
-            </Button>
-          </div>
+
         </div>
       </div>
     </section>

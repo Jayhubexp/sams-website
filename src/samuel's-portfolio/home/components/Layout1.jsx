@@ -20,23 +20,11 @@ export function Layout1() {
               focused approach and adaptability make me a standout in the web
               development landscape.
             </p>
-            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Learn More" variant="secondary">
-                Learn More
-              </Button>
-              <Button
-                title="Contact"
-                variant="link"
-                size="link"
-                iconRight={<RxChevronRight />}
-              >
-                Contact
-              </Button>
-            </div>
+
           </div>
           <div>
             <img
-              src="/assets/Me.jpg"
+              src="/Me.JPG"
               className="w-full object-cover"
               alt="Relume placeholder image"
             />

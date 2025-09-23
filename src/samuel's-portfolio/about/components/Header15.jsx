@@ -24,17 +24,12 @@ export function Header15() {
               began at the University of Ghana in 2022, where I pursued a degree in Computer Science and honed my
               skills through dedication, collaboration, and a drive for excellence.
             </p>
-            <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-              <Button title="Button">Button</Button>
-              <Button title="Button" variant="secondary">
-                Button
-              </Button>
-            </div>
+
           </div>
         </div>
         <div>
           <img
-            src="/assets/Me.jpg"
+            src="/Me.JPG"
             className="w-full object-cover"
             alt="Samuel's image"
           />

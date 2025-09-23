@@ -48,7 +48,7 @@ export function Navbar1() {
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href="/">
             <img
-              src="/assets/Group.png"
+              src="/Group.png"
               alt="Logo image"
               className="max-h-12 lg:max-h-16 object-contain"
             />
@@ -131,7 +131,7 @@ export function Navbar1() {
           >
             <button
               className="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
-              onClick={useActive.openOnMobileDropdownMenu}
+              onClick={useActive.openOnMobileDropdownMenu} id="contact-button"
             >
               <span>Contact</span>
               <motion.span
@@ -185,19 +185,7 @@ export function Navbar1() {
               </motion.nav>
             </AnimatePresence>
           </div>
-          <div className="mt-6 flex flex-col items-center gap-4 lg:ml-4 lg:mt-0 lg:flex-row">
-            <Button
-              title="Join"
-              variant="secondary"
-              size="sm"
-              className="w-full"
-            >
-              Join
-            </Button>
-            <Button title="Explore" size="sm" className="w-full">
-              Explore
-            </Button>
-          </div>
+
         </motion.div>
       </div>
     </section>

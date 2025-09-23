@@ -128,13 +128,9 @@ export function Faq4() {
             Still have questions?
           </h4>
           <p className="md:text-md">
-            Feel free to reach out for more information.
+            Feel free to reach out for more information via any of the links below.
           </p>
-          <div className="mt-6 md:mt-8">
-            <Button title="Contact" variant="secondary">
-              Contact
-            </Button>
-          </div>
+
         </div>
       </div>
     </section>
