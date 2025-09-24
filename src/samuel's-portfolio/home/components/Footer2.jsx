@@ -91,7 +91,7 @@ export function Footer2() {
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://x.com/SamuelJohn95977" className="flex items-center gap-3">
                     Twitter Feed
                   </a>
                 </li>

@@ -42,8 +42,7 @@ export function Blog34() {
               </h2>
             </a>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros.
+              Let’s face it: Most of us are living on autopilot. We wake up, follow the same routines,...
             </p>
             <a
               title="Read more"
@@ -77,8 +76,7 @@ export function Blog34() {
               </h2>
             </a>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros.
+              The Astronaut's Paradox Imagine floating in the silent expanse of space, gazing down at Earth.
             </p>
             <a
               title="Read more"
@@ -112,8 +110,7 @@ export function Blog34() {
               </h2>
             </a>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros.
+              Let’s cut through the noise and get straight to the point:...
             </p>
             <a
               title="Read more"
@@ -129,9 +126,9 @@ export function Blog34() {
 
           <a href="https://mindshifttttttt.blogspot.com/"
             title="View all"
-            className="mt-10 md:mt-14 lg:mt-16">View all</a>
+            className="btn-theme px-4 py-2 rounded-md mt-10 md:mt-14 lg:mt-16">View all</a>
         </div>
       </div>
     </section>
   );
-}
+} 
