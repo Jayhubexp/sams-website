@@ -7,14 +7,22 @@
 // });
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import path from "path";
 
 export default defineConfig({
 	plugins: [react()],
+	resolve: {
+		alias: {
+			react: path.resolve("./node_modules/react"),
+		},
+		dedupe: ["react"],
+	},
 	build: {
 		// Disable production sourcemaps to avoid source-map resolution errors during build
 		sourcemap: false,
 		minify: "terser",
 		terserOptions: {
+			sourcemap: false, // Explicitly disable sourcemaps in terser
 			keep_classnames: true,
 			keep_fnames: true,
 		},
