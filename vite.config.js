@@ -1,10 +1,3 @@
-// import { defineConfig } from "vite";
-// import react from "@vitejs/plugin-react";
-
-// // https://vitejs.dev/config/
-// export default defineConfig({
-// 	plugins: [react()],
-// });
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
@@ -18,21 +11,30 @@ export default defineConfig({
 		dedupe: ["react"],
 	},
 	build: {
-		// Disable production sourcemaps to avoid source-map resolution errors during build
+		// Keep sourcemaps disabled for production unless needed
 		sourcemap: false,
+
+		// Let Vite choose esbuild for faster builds unless you explicitly need Terser
+		// Remove minify: "terser" unless you must preserve classnames/fnames
 		minify: "terser",
 		terserOptions: {
-			sourcemap: false, // Explicitly disable sourcemaps in terser
+			format: {
+				comments: false, // remove comments from output for cleaner builds
+			},
+			compress: true,
+			mangle: true,
 			keep_classnames: true,
 			keep_fnames: true,
 		},
-		// Basic manual chunking to split vendor code and reduce single huge chunks
+
+		// Split vendor code into chunks to optimize load performance
 		rollupOptions: {
 			output: {
 				manualChunks(id) {
 					if (id.includes("node_modules")) {
-						if (id.includes("react") || id.includes("react-dom"))
+						if (id.includes("react") || id.includes("react-dom")) {
 							return "react-vendor";
+						}
 						if (id.includes("framer-motion")) return "framer-motion-vendor";
 						if (id.includes("@relume_io") || id.includes("@flaticon"))
 							return "ui-vendor";
@@ -41,7 +43,8 @@ export default defineConfig({
 				},
 			},
 		},
-		// Increase the chunk size warning limit to reduce noisy warnings; still keep an eye on bundle sizes
+
+		// Raise warning limit (optional)
 		chunkSizeWarningLimit: 1000,
 	},
 });
