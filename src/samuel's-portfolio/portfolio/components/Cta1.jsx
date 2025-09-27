@@ -17,7 +17,7 @@ export function Cta1() {
               together effectively.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-              <a href="#contact-button" className="btn-theme px-4 py-2 rounded-md inline-block">Contact</a>
+              <a href="#contact" className="btn-theme px-4 py-2 rounded-md inline-block">Contact</a>
               <a href="#inquire" className="px-4 py-2 rounded-md inline-block border">Inquire</a>
             </div>
           </div>

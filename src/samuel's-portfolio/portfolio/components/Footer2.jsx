@@ -67,7 +67,7 @@ export function Footer2() {
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="https://mindshifttttttt.blogspot.com/" className="flex items-center gap-3">
+                  <a href="https://mindshifttttttt.blogspot.com/" className="flex items-center gap-3" target="_blank">
                     Blog Posts
                   </a>
                 </li>
@@ -77,23 +77,23 @@ export function Footer2() {
               <h2 className="mb-3 font-semibold md:mb-4">Follow Me</h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="https://github.com/Jayhubexp" className="flex items-center gap-3">
+                  <a href="https://github.com/Jayhubexp" className="flex items-center gap-3" target="_blank">
                     GitHub Profile
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/" className="flex items-center gap-3">
+                  <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/" className="flex items-center gap-3" target="_blank">
                     LinkedIn Page
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="https://x.com/SamuelJohn95977
-" className="flex items-center gap-3">
+" className="flex items-center gap-3" target="_blank">
                     Twitter Feed
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="https://t.me/+6-Icaz0tAb00YTBk" className="flex items-center gap-3">
+                  <a href="https://t.me/+6-Icaz0tAb00YTBk" className="flex items-center gap-3" target="_blank">
                     Telegram Channel
                   </a>
                 </li>
@@ -109,7 +109,7 @@ export function Footer2() {
           <div className="flex flex-col">
             <h1 className="mb-3 font-semibold md:mb-4">Subscribe</h1>
             <p className="mb-3 text-sm md:mb-4">
-              Join our newsletter to stay informed about updates and new
+              Join my newsletter to stay informed about updates and new
               features.
             </p>
             <div className="w-full max-w-md">
@@ -129,7 +129,7 @@ export function Footer2() {
                 </Button>
               </form>
               <p className="text-xs">
-                By subscribing, you consent to our Privacy Policy and updates.
+                By subscribing, you consent to my Privacy Policy and updates.
               </p>
             </div>
           </div>
@@ -139,26 +139,26 @@ export function Footer2() {
           <div className="flex flex-col-reverse items-start md:flex-row md:gap-6 lg:items-center">
             <div className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 md:grid-flow-col md:justify-center md:gap-x-6 md:gap-y-0 lg:text-left">
               <p className="mt-8 md:mt-0">
-                © 2024 Samuel's Portfolio. All rights reserved.
+                © 2024 Samuel Johnson Sokpoli. All rights reserved.
               </p>
             </div>
           </div>
           <div className="mb-8 flex items-center justify-center gap-3 lg:mb-0">
-            <a href="https://snapchat.com/t/qC4xmRs3">
+            <a href="https://snapchat.com/t/qC4xmRs3" target="_blank">
               <FaSnapchat className="size-6" />
             </a>
             <a href="https://www.instagram.com/_super.sam?igsh=b2hkOGNqM2tvbng1&utm_source=qr
-">
+" target="_blank">
               <BiLogoInstagram className="size-6" />
             </a>
             <a href=" https://x.com/SamuelJohn95977
-">
+" target="_blank">
               <FaXTwitter className="size-6 p-0.5" />
             </a>
-            <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/">
+            <a href="https://www.linkedin.com/in/samuel-sokpoli-49736123a/" target="_blank">
               <BiLogoLinkedinSquare className="size-6" />
             </a>
-            <a href="https://t.me/brighttday">
+            <a href="https://t.me/brighttday" target="_blank">
               <FaTelegram className="size-6" />
             </a>
           </div>

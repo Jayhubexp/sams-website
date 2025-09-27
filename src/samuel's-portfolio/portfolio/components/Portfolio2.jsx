@@ -21,11 +21,11 @@ export function Portfolio2() {
         <div className="grid grid-cols-1 gap-12 md:gap-16 lg:gap-20">
           <div>
             <div>
-              <a href="#">
+              <a href="#gold">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                  src="/Goldlex.jpg"
                   className="w-full object-cover"
-                  alt="E-commerce platform screenshot"
+                  alt="Goldlex Auto Merchandise"
                   loading="lazy"
                   decoding="async"
                 />
@@ -34,7 +34,7 @@ export function Portfolio2() {
             <div className="mt-5 grid grid-cols-1 items-start justify-between gap-6 md:mt-6 md:grid-cols-2 md:gap-20">
               <div>
                 <h3 className="text-xl font-bold md:text-2xl">
-                  <a href="#">E-commerce Platform</a>
+                  <a href="#gold">Goldlex Auto & Merchandise</a>
                 </h3>
                 <ul className="mt-3 flex flex-wrap gap-2 md:mt-4">
                   <li className="flex">
@@ -64,7 +64,7 @@ export function Portfolio2() {
                 </ul>
               </div>
               <div>
-                <p>
+                <p id="gold">
                   A fully functional e-commerce platform built with React and
                   Node.js. It features a user-friendly interface and secure
                   payment processing.
@@ -74,11 +74,11 @@ export function Portfolio2() {
           </div>
           <div>
             <div>
-              <a href="#">
+              <a href="#mercy">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                  src="/Mercy.jpg"
                   className="w-full object-cover"
-                  alt="Portfolio website screenshot"
+                  alt="Mercy Schools Limited Website"
                   loading="lazy"
                   decoding="async"
                 />
@@ -87,12 +87,12 @@ export function Portfolio2() {
             <div className="mt-5 grid grid-cols-1 items-start justify-between gap-6 md:mt-6 md:grid-cols-2 md:gap-20">
               <div>
                 <h3 className="text-xl font-bold md:text-2xl">
-                  <a href="#">Portfolio Website</a>
+                  <a href="#mercy">Mercy Schools Limited Website</a>
                 </h3>
                 <ul className="mt-3 flex flex-wrap gap-2 md:mt-4">
                   <li className="flex">
                     <a
-                      href="#"
+                      href="#mercy"
                       className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       WordPress Development
@@ -100,7 +100,7 @@ export function Portfolio2() {
                   </li>
                   <li className="flex">
                     <a
-                      href="#"
+                      href="#mercy"
                       className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       Custom Themes
@@ -108,7 +108,7 @@ export function Portfolio2() {
                   </li>
                   <li className="flex">
                     <a
-                      href="#"
+                      href="#mercy"
                       className="bg-accent-soft px-2 py-1 text-sm font-semibold text-theme"
                     >
                       SEO Optimized
@@ -117,10 +117,8 @@ export function Portfolio2() {
                 </ul>
               </div>
               <div>
-                <p>
-                  A modern portfolio website showcasing my skills and projects.
-                  Built with WordPress, it highlights my expertise in web
-                  development.
+                <p id="mercy">
+                  A modern and responsive website developed for Mercy Schools Limited. Built with WordPress, it showcases the school’s programs, achievements, and updates while reflecting a professional and user-friendly design.
                 </p>
               </div>
             </div>

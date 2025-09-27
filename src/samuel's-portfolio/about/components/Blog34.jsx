@@ -20,7 +20,7 @@ export function Blog34() {
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 md:gap-y-16 lg:grid-cols-3">
           <div className="flex size-full flex-col items-start justify-start text-start">
-            <a href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html" className="mb-6 w-full">
+            <a href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html" className="mb-6 w-full" target="_blank">
               <img
                 src="/Blog_G.jpg"
                 alt="Blog post: Go Wild or Go Home cover"
@@ -35,7 +35,7 @@ export function Blog34() {
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
             </div>
-            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html">
+            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/02/go-wild-or-go-home-breaking-free-from.html" target="_blank">
               <h2 className="text-xl font-bold md:text-2xl">
                 Go Wild or Go Home
               </h2>
@@ -49,12 +49,13 @@ export function Blog34() {
               size="link"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
+              target="_blank"
             >
               Read more
             </a>
           </div>
           <div className="flex size-full flex-col items-start justify-start text-start">
-            <a href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html" className="mb-6 w-full">
+            <a href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html" className="mb-6 w-full" target="_blank">
               <img
                 src="/Blog_R.jpg"
                 alt="Blog post: Your perspective determines your reality cover"
@@ -69,7 +70,7 @@ export function Blog34() {
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
             </div>
-            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html">
+            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/05/the-relativity-of-vision-why-your.html" target="_blank">
               <h2 className="text-xl font-bold md:text-2xl">
                 Your perspective determines your reality
               </h2>
@@ -83,12 +84,13 @@ export function Blog34() {
               size="link"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
+              target="_blank"
             >
               Read more
             </a>
           </div>
           <div className="flex size-full flex-col items-start justify-start text-start">
-            <a href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html" className="mb-6 w-full">
+            <a href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html" className="mb-6 w-full" target="_blank">
               <img
                 src="/Blog_L.jpg"
                 alt="Blog post: The weight of the crown cover"
@@ -103,7 +105,7 @@ export function Blog34() {
               </p>
               <p className="inline text-sm font-semibold">5 min read</p>
             </div>
-            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html">
+            <a className="mb-2 flex justify-start text-start" href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html" target="_blank">
               <h2 className="text-xl font-bold md:text-2xl">
                 The weight of the crown
               </h2>
@@ -116,6 +118,7 @@ export function Blog34() {
               href="https://mindshifttttttt.blogspot.com/2025/02/the-weight-of-crown-why-modern-men-must.html"
               iconRight={<RxChevronRight />}
               className="mt-6 flex items-center justify-center gap-x-2"
+              target="_blank"
             >
               Read more
             </a>
@@ -124,8 +127,10 @@ export function Blog34() {
         <div className="flex items-center justify-center">
 
           <a href="https://mindshifttttttt.blogspot.com/"
+            target="_blank"
             title="View all"
             className="btn-theme px-4 py-2 rounded-md mt-10 md:mt-14 lg:mt-16">View all</a>
+
         </div>
       </div>
     </section>

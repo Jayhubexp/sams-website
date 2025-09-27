@@ -152,7 +152,7 @@ export function Navbar1() {
           >
             <button
               className="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
-              onClick={useActive.openOnMobileDropdownMenu}
+              onClick={useActive.openOnMobileDropdownMenu} id="contact"
             >
               <span>Contact</span>
               <motion.span

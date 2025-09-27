@@ -9,30 +9,18 @@ export function Content1() {
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
           <div>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Innovative Web Application
+              Bible Echo - Desktop Application
             </h2>
             <div className="prose">
               <div>
                 <p>
-                  Morbi sed imperdiet in ipsum, adipiscing elit dui lectus.
-                  Tellus id scelerisque est ultricies ultricies. Duis est sit
-                  sed leo nisl, blandit elit sagittis. Quisque tristique
-                  consequat quam sed. Nisl at scelerisque amet nulla purus
-                  habitasse.
+                  Bible Echo is an innovative desktop application designed to revolutionize how churches and religious gatherings display scripture during live services. Built as part of my final-year project at the University of Ghana, this solution leverages AI-driven speech recognition to capture spoken Bible references in real-time and instantly project the corresponding verse on a secondary display. The goal was to minimize manual intervention, streamline media operations, and create a seamless worship experience for both technical teams and congregants.
                 </p>
                 <p>
-                  Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas
-                  condimentum mi massa. In tincidunt pharetra consectetur sed
-                  duis facilisis metus. Etiam egestas in nec sed et. Quis
-                  lobortis at sit dictum eget nibh tortor commodo cursus.
+                  The system was developed using React with Vite for the frontend, Tailwind CSS for a clean, responsive UI, and a Flask backend integrated with OpenAI’s Whisper model for offline speech transcription. A structured KJV Bible database powers the verse lookup functionality, ensuring accurate and efficient retrieval of scripture references. Additionally, the application supports multi-display projection, live verse editing, and a user-friendly interface for media teams to override or queue content when needed.
                 </p>
                 <p>
-                  Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce
-                  aliquet. Nam elementum urna nisi aliquet erat dolor enim.
-                  Ornare id morbi eget ipsum. Aliquam senectus neque ut id eget
-                  consectetur dictum. Donec posuere pharetra odio consequat
-                  scelerisque et, nunc tortor. Nulla adipiscing erat a erat.
-                  Condimentum lorem posuere gravida enim posuere cursus diam.
+                  This project not only demonstrates my technical expertise in full-stack development and AI integration, but also showcases my ability to translate a real-world problem into a production-ready solution. Bible Echo reflects my passion for building impactful, user-centric applications and my ability to work end-to-end on complex systems, from architecture design and database modeling to frontend development, testing, and deployment.
                 </p>
               </div>
             </div>
@@ -40,7 +28,7 @@ export function Content1() {
           <div>
             <div>
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+                src="/Appendice_B_1.jpg"
                 className="w-full object-cover"
                 alt="Project screenshot"
                 loading="lazy"

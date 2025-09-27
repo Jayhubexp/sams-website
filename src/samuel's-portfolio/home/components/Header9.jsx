@@ -36,7 +36,7 @@ export function Header9() {
               </h1>
             </div>
             <div>
-              <p className="text-3xl text-theme md:text-md">
+              <p className="text-xl text-theme md:text-md">
                 Looking for a dedicated full-stack web
                 developer passionate about creating seamless and interactive web
                 applications, Look no further!
