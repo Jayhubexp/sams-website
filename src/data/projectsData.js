@@ -2,40 +2,30 @@ import { socialConfig } from "./socialConfig";
 
 export const projectsData = [
   {
-    id: "taskmanager-clean-arch",
-    title: "TaskManager & Enterprise Inventory Platform",
-    category: "aspnet",
+    id: "bible-echo",
+    title: "Bible Echo",
+    category: "desktop",
     featured: true,
-    badge: "ASP.NET Core • Blazor • Docker",
-    tagline: "High-performance enterprise task & inventory management system engineered with Clean Architecture, CQRS, and containerized deployment.",
-    description: "A production-grade full-stack solution featuring a decoupled multi-tier architecture (.NET 10 Web API, Blazor WebAssembly, CQRS with MediatR, Entity Framework Core, SQLite/PostgreSQL) orchestrated in Docker containers with health checks and automated CI/CD.",
+    badge: "Church Media · Scripture Projection",
+    tagline: "Automatic scripture projection from live sermon transcription.",
+    description: "Transcribes a sermon, detects Bible references, looks up corresponding verses in a Bible database, and displays them for the congregation, reducing manual work for church media teams.",
     image: "/Dashboard.jpg",
-    tags: ["C#", "ASP.NET Core", "Blazor WebAssembly", "Clean Architecture", "CQRS", "EF Core", "Docker", "REST API"],
-    metrics: [
-      { label: "Architecture", value: "Clean / Onion" },
-      { label: "Containerization", value: "Docker Multi-stage" },
-      { label: "Client UI", value: "Blazor WASM" },
-      { label: "Latency", value: "< 45ms P95" }
-    ],
-    architectureHighlights: [
-      "Strict separation of concerns: Domain Core, Application (CQRS handlers), Infrastructure (EF Core repositories), and Web/Api presentation.",
-      "Blazor WebAssembly client communicating with authenticated REST endpoints with token lifecycle handling.",
-      "Dockerized microservice stack with multi-stage lightweight builds, isolated network bridges, and persistent volume mapping.",
-      "Repository & Unit of Work patterns ensuring testability and zero database leakage into business logic."
-    ],
-    github: socialConfig.github,
-    demo: "#",
-    date: "2026"
+    tags: ["React", "Electron", "Python", "Speech Recognition"],
+    metrics: [],
+    architectureHighlights: ["Sermon audio transcription and Bible reference detection.", "Database lookup and automatic verse projection."],
+    github: "https://github.com/Jayhubexp/BibleEcho",
+    demo: "",
+    date: ""
   },
   {
     id: "dtapms-school-erp",
-    title: "DiamondTech School Management ERP (SMS / DTAPMS)",
+    title: "Diamond Tech SMS",
     category: "enterprise",
     featured: true,
     badge: "Enterprise ERP • Full-Stack • RBAC",
     tagline: "Comprehensive Multi-Tenant School ERP with Role-Based Access Control, automated gradebook, financial ledger, and parent portal.",
     description: "Architected and delivered an enterprise-grade school management platform used in production. Features dynamic RBAC security across Administrators, Teachers, Accountants, Parents, and Students, alongside automated fee invoicing, grade compilation, attendance tracking, and real-time report card generation.",
-    image: "/school_dash_redesign.webp",
+    image: "/admin.png",
     fallbackImage: "/Mercy.jpg",
     tags: ["React", "ASP.NET Core / Node.js", "RBAC Security", "PostgreSQL", "Tailwind CSS", "Docker", "PDF Generation"],
     metrics: [
@@ -49,32 +39,6 @@ export const projectsData = [
       "Dynamic grade calculation engine processing continuous assessment and exam scores into automated GPA ranks.",
       "Invoicing & student fee reconciliation system with audit-trailed transaction ledgers and receipt printing.",
       "Responsive analytics dashboard featuring attendance heatmaps, revenue charts, and demographic breakdown."
-    ],
-    github: socialConfig.github,
-    demo: "#",
-    date: "2026"
-  },
-  {
-    id: "ehms-hospital-management",
-    title: "Enterprise Healthcare Management System (EHMS)",
-    category: "enterprise",
-    featured: true,
-    badge: "Healthcare System • Clinical Workflows",
-    tagline: "Integrated clinical records, doctor scheduling, pharmacy inventory, and diagnostic triage platform.",
-    description: "Engineered a robust hospital operations system built to streamline patient consultations, bed allocation, pharmaceutical stock replenishment, and multi-department billing with stringent data privacy standards.",
-    image: "/dashboard_hms.jpg",
-    fallbackImage: "/Client.jpg",
-    tags: ["ASP.NET Core", "React", "Docker", "SQL Server", "Clean Architecture", "Medical Records", "Tailwind CSS"],
-    metrics: [
-      { label: "Workflow", value: "Outpatient & Inpatient" },
-      { label: "Inventory", value: "Live Pharmacy Sync" },
-      { label: "Security", value: "Encrypted Records" },
-      { label: "Response", value: "Real-time Triage" }
-    ],
-    architectureHighlights: [
-      "Patient lifecycle tracking from reception registration through triage, consultation, pharmacy dispatch, to final billing.",
-      "Automated low-stock threshold alerting for hospital dispensaries and pharmaceutical inventories.",
-      "Doctor consultation workbench with historical diagnosis timelines, lab test orders, and prescription logging."
     ],
     github: socialConfig.github,
     demo: "#",
@@ -151,7 +115,7 @@ export const projectsData = [
       "Optimized asset pipelines and responsive image formatting for instant page loads on mobile devices."
     ],
     github: socialConfig.github,
-    demo: "#",
+    demo: "https://goldgroupservice.com/",
     date: "2025"
   }
 ];

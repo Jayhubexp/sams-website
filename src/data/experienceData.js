@@ -5,9 +5,9 @@ export const experienceData = [
     company: "Freelance & Enterprise Client Gigs",
     description: "Architecting end-to-end full-stack web and enterprise software solutions. Leading system design, database modeling, ASP.NET Core Clean Architecture backends, Blazor/React client interfaces, and containerized Docker deployments for commercial clients.",
     achievements: [
-      "Designed and deployed the DiamondTech School ERP (DTAPMS) with 14 modular subsystems, supporting active daily operations with automated fee reconciliation and grading.",
-      "Engineered TaskManager & Inventory Suite adopting Clean Architecture, CQRS, and Blazor WebAssembly running on Dockerized infrastructure.",
-      "Spearheaded multi-tenant Role-Based Access Control (RBAC) security frameworks securing multi-user operations across healthcare and educational institutions.",
+      "Designed and deployed the Diamond Tech SMS with 14 modular subsystems, supporting active daily operations with automated fee reconciliation and grading.",
+      "Built Bible Echo to transcribe sermons, detect Bible references, retrieve verses, and automate scripture projection for church media teams.",
+      "Spearheaded multi-tenant Role-Based Access Control (RBAC) security frameworks securing multi-user operations for educational administration.",
       "Containerized legacy monoliths into lightweight Docker images reducing deployment overhead by 65%."
     ],
     skills: ["ASP.NET Core", "C#", "Docker", "React", "Clean Architecture", "PostgreSQL", "Tailwind CSS", "Linux"]

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import relumeTailwind from "@relume_io/relume-tailwind";
+
 export default {
 	darkMode: "class",
 	content: [
@@ -82,6 +82,6 @@ export default {
 		},
 	},
 	plugins: [],
-	presets: [relumeTailwind],
+	presets: [],
 };
 

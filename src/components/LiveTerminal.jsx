@@ -74,9 +74,9 @@ export function LiveTerminal() {
         newHistory.push({
           type: "response",
           content: `[FEATURED PRODUCTION SYSTEMS]
-1. TaskManager & Inventory (.NET 10 Clean Architecture, Blazor, Docker)
-2. DiamondTech School ERP (14 modular ERP subsystems, RBAC security)
-3. Enterprise Hospital System (Clinical records, triage, pharmacy inventory)
+1. Bible Echo (Sermon transcription, Bible reference detection, automatic verse projection)
+2. Diamond Tech SMS (School administration and role-based access)
+3. Deep Learning (TensorFlow and neural network learning projects)
 4. ExpenseTracker FullStack (ASP.NET Core API + Blazor/React, multi-currency)
 5. FYP Desktop Intelligence (Electron + React + embedded Python engine + SQLite)`
         });
